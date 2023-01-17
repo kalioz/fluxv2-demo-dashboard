@@ -1,0 +1,1600 @@
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-001
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-002
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-003
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-004
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-005
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-006
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-007
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-008
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-009
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-010
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-011
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-012
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-013
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-014
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-015
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-016
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-017
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-018
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-019
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-020
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-021
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-022
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-023
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-024
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-025
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-026
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-027
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-028
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-029
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-030
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-031
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-032
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-033
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-034
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-035
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-036
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-037
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-038
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-039
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-040
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-041
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-042
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-043
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-044
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-045
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-046
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-047
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-048
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-049
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-050
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-051
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-052
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-053
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-054
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-055
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-056
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-057
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-058
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-059
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-060
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-061
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-062
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-063
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-064
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-065
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-066
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-067
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-068
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-069
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-070
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-071
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-072
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-073
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-074
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-075
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-076
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-077
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-078
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-079
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-080
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-081
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-082
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-083
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-084
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-085
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-086
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-087
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-088
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-089
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-090
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-091
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-092
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-093
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-094
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-095
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-096
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-097
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-098
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-099
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: podinfo-100
+  namespace: default
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: podinfo
+      version: '6.3.0'
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo
+        namespace: default
