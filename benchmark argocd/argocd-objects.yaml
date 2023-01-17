@@ -1,0 +1,1400 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-001
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-001.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-002
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-002.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-003
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-003.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-004
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-004.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-005
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-005.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-006
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-006.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-007
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-007.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-008
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-008.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-009
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-009.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-010
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-010.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-011
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-011.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-012
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-012.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-013
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-013.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-014
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-014.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-015
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-015.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-016
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-016.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-017
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-017.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-018
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-018.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-019
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-019.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-020
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-020.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-021
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-021.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-022
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-022.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-023
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-023.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-024
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-024.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-025
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-025.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-026
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-026.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-027
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-027.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-028
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-028.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-029
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-029.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-030
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-030.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-031
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-031.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-032
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-032.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-033
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-033.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-034
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-034.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-035
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-035.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-036
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-036.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-037
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-037.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-038
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-038.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-039
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-039.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-040
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-040.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-041
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-041.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-042
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-042.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-043
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-043.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-044
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-044.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-045
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-045.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-046
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-046.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-047
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-047.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-048
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-048.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-049
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-049.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-050
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-050.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-051
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-051.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-052
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-052.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-053
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-053.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-054
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-054.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-055
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-055.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-056
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-056.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-057
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-057.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-058
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-058.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-059
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-059.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-060
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-060.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-061
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-061.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-062
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-062.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-063
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-063.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-064
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-064.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-065
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-065.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-066
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-066.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-067
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-067.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-068
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-068.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-069
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-069.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-070
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-070.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-071
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-071.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-072
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-072.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-073
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-073.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-074
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-074.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-075
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-075.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-076
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-076.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-077
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-077.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-078
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-078.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-079
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-079.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-080
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-080.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-081
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-081.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-082
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-082.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-083
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-083.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-084
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-084.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-085
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-085.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-086
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-086.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-087
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-087.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-088
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-088.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-089
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-089.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-090
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-090.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-091
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-091.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-092
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-092.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-093
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-093.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-094
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-094.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-095
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-095.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-096
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-096.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-097
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-097.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-098
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-098.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-099
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-099.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-benchmark-100
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/clementloiseletwescale/gitops-benchmark-100.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://kubernetes.default.svc
