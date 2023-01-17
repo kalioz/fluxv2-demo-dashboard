@@ -1,0 +1,2300 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-001
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-001.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-001
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-001
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-002
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-002.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-002
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-002
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-003
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-003.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-003
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-003
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-004
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-004.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-004
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-004
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-005
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-005.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-005
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-005
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-006
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-006.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-006
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-006
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-007
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-007.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-007
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-007
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-008
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-008.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-008
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-008
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-009
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-009.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-009
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-009
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-010
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-010.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-010
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-010
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-011
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-011.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-011
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-011
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-012
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-012.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-012
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-012
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-013
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-013.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-013
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-013
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-014
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-014.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-014
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-014
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-015
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-015.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-015
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-015
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-016
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-016.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-016
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-016
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-017
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-017.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-017
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-017
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-018
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-018.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-018
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-018
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-019
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-019.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-019
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-019
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-020
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-020.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-020
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-020
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-021
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-021.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-021
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-021
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-022
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-022.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-022
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-022
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-023
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-023.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-023
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-023
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-024
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-024.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-024
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-024
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-025
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-025.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-025
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-025
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-026
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-026.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-026
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-026
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-027
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-027.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-027
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-027
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-028
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-028.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-028
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-028
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-029
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-029.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-029
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-029
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-030
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-030.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-030
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-030
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-031
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-031.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-031
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-031
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-032
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-032.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-032
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-032
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-033
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-033.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-033
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-033
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-034
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-034.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-034
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-034
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-035
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-035.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-035
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-035
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-036
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-036.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-036
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-036
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-037
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-037.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-037
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-037
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-038
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-038.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-038
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-038
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-039
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-039.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-039
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-039
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-040
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-040.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-040
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-040
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-041
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-041.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-041
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-041
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-042
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-042.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-042
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-042
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-043
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-043.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-043
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-043
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-044
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-044.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-044
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-044
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-045
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-045.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-045
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-045
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-046
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-046.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-046
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-046
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-047
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-047.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-047
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-047
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-048
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-048.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-048
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-048
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-049
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-049.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-049
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-049
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-050
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-050.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-050
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-050
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-051
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-051.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-051
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-051
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-052
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-052.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-052
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-052
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-053
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-053.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-053
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-053
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-054
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-054.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-054
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-054
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-055
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-055.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-055
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-055
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-056
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-056.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-056
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-056
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-057
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-057.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-057
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-057
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-058
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-058.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-058
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-058
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-059
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-059.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-059
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-059
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-060
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-060.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-060
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-060
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-061
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-061.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-061
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-061
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-062
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-062.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-062
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-062
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-063
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-063.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-063
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-063
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-064
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-064.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-064
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-064
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-065
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-065.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-065
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-065
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-066
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-066.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-066
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-066
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-067
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-067.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-067
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-067
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-068
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-068.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-068
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-068
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-069
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-069.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-069
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-069
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-070
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-070.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-070
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-070
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-071
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-071.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-071
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-071
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-072
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-072.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-072
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-072
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-073
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-073.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-073
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-073
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-074
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-074.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-074
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-074
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-075
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-075.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-075
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-075
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-076
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-076.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-076
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-076
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-077
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-077.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-077
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-077
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-078
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-078.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-078
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-078
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-079
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-079.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-079
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-079
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-080
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-080.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-080
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-080
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-081
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-081.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-081
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-081
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-082
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-082.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-082
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-082
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-083
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-083.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-083
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-083
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-084
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-084.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-084
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-084
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-085
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-085.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-085
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-085
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-086
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-086.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-086
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-086
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-087
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-087.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-087
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-087
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-088
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-088.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-088
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-088
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-089
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-089.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-089
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-089
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-090
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-090.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-090
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-090
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-091
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-091.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-091
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-091
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-092
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-092.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-092
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-092
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-093
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-093.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-093
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-093
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-094
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-094.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-094
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-094
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-095
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-095.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-095
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-095
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-096
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-096.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-096
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-096
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-097
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-097.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-097
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-097
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-098
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-098.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-098
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-098
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-099
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-099.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-099
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-099
+  path: "."
+  prune: true
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: gitops-benchmark-100
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/clementloiseletwescale/gitops-benchmark-100.git
+  ref:
+    branch: master
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: gitops-benchmark-100
+spec:
+  interval: 5m
+  sourceRef:
+    kind: GitRepository
+    name: gitops-benchmark-100
+  path: "."
+  prune: true
