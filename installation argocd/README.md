@@ -1,0 +1,3 @@
+```bash
+kubectl apply -k .
+```

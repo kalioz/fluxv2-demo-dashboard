@@ -4,6 +4,8 @@ kind: Application
 metadata:
   name: gitops-benchmark-001
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -12,12 +14,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-001
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-002
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -26,12 +36,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-002
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-003
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -40,12 +58,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-003
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-004
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -54,12 +80,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-004
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-005
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -68,12 +102,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-005
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-006
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -82,12 +124,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-006
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-007
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -96,12 +146,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-007
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-008
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -110,12 +168,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-008
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-009
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -124,12 +190,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-009
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-010
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -138,12 +212,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-010
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-011
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -152,12 +234,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-011
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-012
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -166,12 +256,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-012
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-013
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -180,12 +278,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-013
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-014
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -194,12 +300,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-014
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-015
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -208,12 +322,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-015
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-016
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -222,12 +344,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-016
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-017
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -236,12 +366,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-017
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-018
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -250,12 +388,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-018
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-019
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -264,12 +410,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-019
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-020
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -278,12 +432,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-020
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-021
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -292,12 +454,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-021
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-022
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -306,12 +476,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-022
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-023
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -320,12 +498,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-023
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-024
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -334,12 +520,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-024
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-025
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -348,12 +542,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-025
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-026
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -362,12 +564,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-026
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-027
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -376,12 +586,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-027
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-028
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -390,12 +608,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-028
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-029
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -404,12 +630,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-029
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-030
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -418,12 +652,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-030
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-031
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -432,12 +674,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-031
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-032
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -446,12 +696,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-032
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-033
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -460,12 +718,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-033
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-034
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -474,12 +740,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-034
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-035
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -488,12 +762,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-035
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-036
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -502,12 +784,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-036
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-037
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -516,12 +806,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-037
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-038
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -530,12 +828,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-038
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-039
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -544,12 +850,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-039
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-040
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -558,12 +872,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-040
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-041
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -572,12 +894,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-041
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-042
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -586,12 +916,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-042
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-043
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -600,12 +938,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-043
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-044
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -614,12 +960,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-044
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-045
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -628,12 +982,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-045
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-046
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -642,12 +1004,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-046
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-047
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -656,12 +1026,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-047
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-048
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -670,12 +1048,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-048
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-049
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -684,12 +1070,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-049
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-050
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -698,12 +1092,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-050
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-051
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -712,12 +1114,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-051
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-052
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -726,12 +1136,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-052
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-053
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -740,12 +1158,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-053
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-054
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -754,12 +1180,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-054
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-055
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -768,12 +1202,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-055
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-056
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -782,12 +1224,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-056
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-057
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -796,12 +1246,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-057
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-058
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -810,12 +1268,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-058
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-059
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -824,12 +1290,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-059
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-060
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -838,12 +1312,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-060
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-061
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -852,12 +1334,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-061
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-062
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -866,12 +1356,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-062
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-063
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -880,12 +1378,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-063
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-064
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -894,12 +1400,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-064
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-065
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -908,12 +1422,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-065
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-066
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -922,12 +1444,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-066
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-067
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -936,12 +1466,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-067
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-068
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -950,12 +1488,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-068
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-069
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -964,12 +1510,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-069
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-070
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -978,12 +1532,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-070
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-071
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -992,12 +1554,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-071
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-072
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1006,12 +1576,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-072
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-073
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1020,12 +1598,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-073
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-074
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1034,12 +1620,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-074
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-075
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1048,12 +1642,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-075
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-076
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1062,12 +1664,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-076
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-077
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1076,12 +1686,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-077
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-078
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1090,12 +1708,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-078
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-079
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1104,12 +1730,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-079
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-080
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1118,12 +1752,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-080
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-081
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1132,12 +1774,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-081
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-082
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1146,12 +1796,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-082
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-083
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1160,12 +1818,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-083
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-084
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1174,12 +1840,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-084
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-085
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1188,12 +1862,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-085
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-086
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1202,12 +1884,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-086
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-087
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1216,12 +1906,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-087
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-088
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1230,12 +1928,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-088
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-089
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1244,12 +1950,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-089
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-090
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1258,12 +1972,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-090
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-091
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1272,12 +1994,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-091
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-092
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1286,12 +2016,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-092
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-093
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1300,12 +2038,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-093
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-094
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1314,12 +2060,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-094
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-095
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1328,12 +2082,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-095
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-096
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1342,12 +2104,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-096
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-097
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1356,12 +2126,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-097
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-098
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1370,12 +2148,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-098
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-099
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1384,12 +2170,20 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-099
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-benchmark-100
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -1398,3 +2192,9 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
+    namespace: gitops-benchmark-100
+  syncPolicy:
+    automated:
+      prune: true
+      allowEmpty: true
+      selfHeal: true
