@@ -4,3 +4,4 @@ resources:
 - 100-gitrepos.yaml
 - 100-helmreleases.yaml
 - helmrepository.yaml
+namespace: default
