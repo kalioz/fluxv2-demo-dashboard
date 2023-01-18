@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-resources:
-- 100-gitrepos.yaml
-- 100-helmreleases.yaml
-- helmrepository.yaml
+resources: []
+# - 100-gitrepos.yaml
+# - 100-helmreleases.yaml
+# - helmrepository.yaml
 namespace: default
